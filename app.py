@@ -4,10 +4,8 @@ import os
 from intro import Intro  # importing function from python file from same directory
 
 
-import streamlit as st
-
 st.set_page_config(
-    page_title="Automated Machine Learning",
+    page_title="Automated ML",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded",

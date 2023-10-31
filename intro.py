@@ -74,26 +74,22 @@ def Intro():
         unsafe_allow_html=True,
     )
 
-    # Time Series
+    # # Time Series
 
-    st.markdown(
-        '<div style="margin-top: 40px; margin-left: 40px; color:black; font-size: 1.8rem;font-weight: 300;text-align: left;">🐥Time Series : </div>',
-        unsafe_allow_html=True,
+    # st.markdown(
+    #     '<div style="margin-top: 40px; margin-left: 40px; color:black; font-size: 1.8rem;font-weight: 300;text-align: left;">🐥Time Series : </div>',
+    #     unsafe_allow_html=True,
+    # )
+
+    # st.markdown(
+    #     '<div style=" height:auto; width: 100%; padding: 1rem 8rem ; margin-top:2rem; font-size:20px; color:black; border-radius:1.5rem ;background:white;"> PyCaret Time Series module is a powerful tool for analyzing and predicting time series data using machine learning and classical statistical techniques. This module enables users to easily perform complex time series forecasting tasks by automating the entire process from data preparation to model deployment. <br><br> PyCaret Time Series Forecasting module supports a wide range of forecasting methods such as ARIMA, Prophet, and LSTM. It also provides various features to handle missing values, time series decomposition, and data visualizations.<br><br>Time series analysis is used for non-stationary data—things that are constantly fluctuating over time or are affected by time. Industries like finance, retail, and economics frequently use time series analysis because currency and sales are always changing.</div>',
+    #     unsafe_allow_html=True,
+    # )
+
+    st.markdown("""""")
+    st.markdown("""""")
+    st.markdown("""""")
+
+    st.write(
+        "This app was created by [Harsh Narayan](https://portfolio-7bwl.onrender.com/)"
     )
-
-    st.markdown(
-        '<div style=" height:auto; width: 100%; padding: 1rem 8rem ; margin-top:2rem; font-size:20px; color:black; border-radius:1.5rem ;background:white;"> PyCaret Time Series module is a powerful tool for analyzing and predicting time series data using machine learning and classical statistical techniques. This module enables users to easily perform complex time series forecasting tasks by automating the entire process from data preparation to model deployment. <br><br> PyCaret Time Series Forecasting module supports a wide range of forecasting methods such as ARIMA, Prophet, and LSTM. It also provides various features to handle missing values, time series decomposition, and data visualizations.<br><br>Time series analysis is used for non-stationary data—things that are constantly fluctuating over time or are affected by time. Industries like finance, retail, and economics frequently use time series analysis because currency and sales are always changing.</div>',
-        unsafe_allow_html=True,
-    )
-
-    st.markdown("""""")
-    st.markdown("""""")
-    st.markdown("""""")
-
-    with st.container():
-        col = st.columns([1])
-        # HARSH #
-        with col[0]:
-            st.write(
-                "This app was created by [Harsh Narayan](https://portfolio-7bwl.onrender.com/)"
-            )
