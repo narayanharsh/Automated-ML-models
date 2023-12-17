@@ -4,48 +4,45 @@ import os
 from intro import Intro  # importing function from python file from same directory
 
 
-st.set_page_config(
-    page_title="Automated ML",
-    page_icon="🤖",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
+# st.set_page_config(
+
+#     layout="wide",
+#     initial_sidebar_state="expanded",
+# )
 
 
-page_bg_img_link = f"""
-<style>
-[data-testid="stAppViewContainer"]> .main{{
+# page_bg_img_link = f"""
+# <style>
+# [data-testid="stAppViewContainer"]> .main{{
 
-background-color: #FFDEE9;
-background-image: linear-gradient(0deg,  #B5FFFC 0%, #FFDEE9 100%);
-
-
+# background-color: #FFDEE9;
+# background-image: linear-gradient(0deg,  #B5FFFC 0%, #FFDEE9 100%);
 
 
-}}
+# }}
 
 
-[data-testid="stHeader"]{{
-background-color: rgba(0,0,0,0)
+# [data-testid="stHeader"]{{
+# background-color: rgba(0,0,0,0)
 
-}}
+# }}
 
-[data-testid="stToolbar"]{{
-right : 2 rem;
-}}
+# [data-testid="stToolbar"]{{
+# right : 2 rem;
+# }}
 
-[data-testid="stSidebar"] > div:first-child{{
-
-
-background: linear-gradient(to right bottom,
-                 rgba(285,205,205,0.7),
-                 rgba(285,205,205,0.3));
-}}
+# [data-testid="stSidebar"] > div:first-child{{
 
 
-</style>
-"""
-st.markdown(page_bg_img_link, unsafe_allow_html=True)
+# background: linear-gradient(to right bottom,
+#                  rgba(285,205,205,0.7),
+#                  rgba(285,205,205,0.3));
+# }}
+
+
+# </style>
+# """
+# st.markdown(page_bg_img_link, unsafe_allow_html=True)
 
 
 # Import profiling capability
